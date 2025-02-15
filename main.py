@@ -59,8 +59,8 @@ if noticias_extraidas:
     df = pd.DataFrame(noticias_extraidas)
     df.to_json('results.json', orient="records", force_ascii=False, indent=4)
     print("Arquivo 'results.json' gerado com sucesso!")
+    print("Success in Web Scraping! 50 notícias extraídas.")
 else:
     print("Nenhuma notícia foi extraída.")
-
-print("Success in Web Scraping! 50 notícias extraídas.")
+    
 driver.quit()
