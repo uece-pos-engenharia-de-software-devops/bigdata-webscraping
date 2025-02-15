@@ -6,7 +6,7 @@
 
 ## Sobre o Projeto
 
-O código realiza a extração de notícias do site da UECE utilizando Selenium para navegação e BeautifulSoup para parsing do HTML. O objetivo é coletar até 50 notícias, armazenando os títulos e descrições em um arquivo JSON.
+O código realiza a extração de notícias do site da UECE, utilizando Selenium para navegação e BeautifulSoup para parsing do HTML. O objetivo é coletar até 50 notícias, armazenando os títulos e descrições em um arquivo JSON.
 
 ## Tecnologias Utilizadas  
 
@@ -36,7 +36,7 @@ git clone https://github.com/uece-pos-engenharia-de-software-devops/bigdata-webs
 3. O resultado será salvo no arquivo `results.json`.
 
 ## Sobre o Curso
-Este projeto foi desenvolvido na disciplina de **Big Data**, ministrada pelo professor **Denis Menezes de Sousa**, como parte da **Especialização em Engenharia de Software com DevOps**.
+Este projeto foi realizado na disciplina de **Big Data**, sob a orientação do professor **Denis Menezes de Sousa**, como parte do curso de **Especialização em Engenharia de Software com DevOps** oferecido pela Universidade Estadual do Ceará (UECE).
 
 ## Demo
 ![Demo](demo.gif)
